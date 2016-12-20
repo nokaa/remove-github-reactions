@@ -19,6 +19,6 @@
 
 var upboats = document.getElementsByClassName("comment-reactions");
 
-for (i = 0; i < upboats.length; i += 1) {
-    upboats.item(0).remove();
+for (i = (upboats.length - 1); i >= 0; i--) {
+    upboats.item(i).remove();
 }
