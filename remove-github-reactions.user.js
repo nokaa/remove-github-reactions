@@ -22,3 +22,9 @@ var upboats = document.getElementsByClassName("comment-reactions");
 for (i = (upboats.length - 1); i >= 0; i--) {
     upboats.item(i).remove();
 }
+
+var reactions_menu = document.getElementsByClassName("timeline-comment-actions");
+
+for (i = (reactions_menu.length - 1); i >= 0; i--) {
+    reactions_menu.item(i).remove();
+}
